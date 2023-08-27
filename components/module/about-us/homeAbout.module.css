@@ -1,0 +1,9 @@
+.container {
+  direction: rtl;
+  margin-top: 20px;
+  text-align: center;
+}
+.container p {
+  color: black;
+  font-weight: bold;
+}

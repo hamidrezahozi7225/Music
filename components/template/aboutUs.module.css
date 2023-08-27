@@ -1,0 +1,19 @@
+.btn button {
+  background-color: rgb(2, 74, 125);
+  padding: 10px;
+  border-radius: 5px;
+  margin: 8px;
+}
+.btn button:hover {
+  background-color: black;
+  color: white;
+}
+.btn button:disabled {
+  background-color: gray;
+  cursor: no-drop;
+}
+.btn {
+  position: absolute;
+  bottom: 10px;
+  left: 30px;
+}

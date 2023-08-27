@@ -2,26 +2,89 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+body {
+  /* background-color: black; */
+  box-sizing: border-box;
+}
+.App {
+  min-height: 100vh;
+  /* padding: 120px 0; */
+  background-color: #020a28fe;
+  color: #101010;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.player {
+  width: 500px;
+  background-image: url('/images/rapBackground.jpg');
+  height: 400px;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 4px 20px 30px rgb(91, 58, 255);
+}
+.player img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Song-Thumbnail {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.Song-Title {
+  text-transform: capitalize;
+  margin-bottom: 0;
+}
+
+.Singer {
+  margin-top: 3px;
+  margin-bottom: 32px;
+  font-size: 18px;
+  color: #ffebeb;
+  font-weight: 300;
+}
+
+.Control-Button-Group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  > * {
+    cursor: pointer;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.Prev-Button,
+.Next-Button {
+  width: 30px;
+  cursor: pointer;
+}
+
+.Pause-Play-Button {
+  display: flex;
+  justify-content: center;
+  width: 20px;
+  height: 22px;
+  margin: 0 32px;
+  cursor: pointer;
+
+  svg {
+    height: 22px;
+  }
+}
+:where(.css-dev-only-do-not-override-txh9fw).ant-modal
+  .ant-modal-footer
+  .ant-btn
+  + .ant-btn:not(.ant-dropdown-trigger) {
+  display: inline-block;
+  background-color: rgb(39, 1, 255);
 }

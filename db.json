@@ -1,0 +1,200 @@
+{
+  "albums": [
+    {
+      "id": 1,
+      "name": "Shayea",
+      "tracks": [
+        {
+          "id": 1,
+          "name": "Moji",
+          "src": "/images/songs/shayea/moji.mp3",
+          "artist": "Shayea",
+          "FT": "Mehrad Hidden"
+        },
+        {
+          "id": 2,
+          "name": "Vel Kon",
+          "src": "/images/songs/shayea/velkon.mp3",
+          "artist": "Shayea",
+          "FT": "Amir Khalvat"
+        },
+        {
+          "id": 3,
+          "name": "Estesnaei",
+          "src": "/images/songs/shayea/Estesnaei.mp3",
+          "artist": "Shayea",
+          "FT": "Sina Sa-e"
+        },
+        {
+          "id": 4,
+          "name": "Oghdei",
+          "src": "/images/songs/shayea/Oghdei.mp3",
+          "artist": "Shayea",
+          "FT": "Tara Salahi"
+        },
+        {
+          "id": 5,
+          "name": "Bezan GHadesh",
+          "src": "/images/songs/shayea/bezanghadesh.mp3",
+          "artist": "Shayea",
+          "FT": "Maslak & Deon"
+        },
+        {
+          "id": 6,
+          "name": "Yadetim Koli",
+          "src": "/images/songs/shayea/yadetim.mp3",
+          "artist": "Shayea",
+          "FT": "Mahyar"
+        },
+        {
+          "id": 7,
+          "name": "Vaveyla",
+          "src": "/images/songs/shayea/Vaveyla.mp3",
+          "artist": "Shayea",
+          "FT": "God Poori"
+        },
+        {
+          "id": 8,
+          "name": "In Seri",
+          "src": "/images/songs/shayea/inseri.mp3",
+          "artist": "Shayea",
+          "FT": "Rez & Canis"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Hiphopologist",
+      "tracks": [
+        {
+          "id": 1,
+          "name": "OD",
+          "src": "/images/songs/hiphopologist/Od.mp3",
+          "artist": "Hiphopologist",
+          "FT": ""
+        },
+        {
+          "id": 2,
+          "name": "Sadism",
+          "src": "/images/songs/hiphopologist/sadism.mp3",
+          "artist": "Hiphopologist",
+          "FT": ""
+        },
+        {
+          "id": 3,
+          "name": "Norf Norf",
+          "src": "/images/songs/hiphopologist/Norf.mp3",
+          "artist": "Hiphopologist",
+          "FT": ""
+        },
+        {
+          "id": 4,
+          "name": "Daryakenar",
+          "src": "/images/songs/hiphopologist/Daryakenar.mp3",
+          "artist": "Hiphopologist",
+          "FT": ""
+        },
+        {
+          "id": 5,
+          "name": "Sheesh",
+          "src": "/images/songs/hiphopologist/shessh.mp3",
+          "artist": "Hiphopologist",
+          "FT": ""
+        },
+        {
+          "id": 6,
+          "name": "Adams Skit",
+          "src": "/images/songs/hiphopologist/Adams.mp3",
+          "artist": "Hiphopologist",
+          "FT": "Rag"
+        },
+        {
+          "id": 7,
+          "name": "Dastan",
+          "src": "/images/songs/hiphopologist/Dastan.mp3",
+          "artist": "Hiphopologist",
+          "FT": "021Kid"
+        },
+        {
+          "id": 8,
+          "name": "Bank",
+          "src": "/images/songs/hiphopologist/Bank.mp3",
+          "artist": "Hiphopologist",
+          "FT": "CachyBeatz"
+        }
+      ]
+    }
+  ],
+  "track": [
+    {
+      "id": 1,
+      "name": "Shabe Tavalode",
+      "src": "/images/songs/ShabeTavalode.mp3",
+      "artist": "Khalse",
+      "FT": "Sijal & Sami Low"
+    },
+    {
+      "id": 2,
+      "name": "Boodi Yaram",
+      "src": "/images/songs/BoodiYaram.mp3",
+      "artist": "Khalse",
+      "FT": "Sijal & Hoomaan"
+    },
+    {
+      "id": 3,
+      "name": "Ghalbe Banafsh",
+      "src": "/images/songs/ghalbebanafsh.mp3",
+      "artist": "Ali Ardavan",
+      "FT": "Khalse & I.Da"
+    },
+    {
+      "id": 4,
+      "name": "Nanaal",
+      "src": "/images/songs/Nanaal.mp3",
+      "artist": "Arta",
+      "FT": "MJ & Wilson & Koorosh"
+    },
+    {
+      "id": 5,
+      "name": "Eshtebah",
+      "src": "/images/songs/eshtebah.mp3",
+      "artist": "Bahram",
+      "FT": ""
+    },
+    {
+      "id": 6,
+      "name": "Dardesar",
+      "src": "/images/songs/Dardesar.mp3",
+      "artist": "CachyBeatz",
+      "FT": "Leito"
+    },
+    {
+      "id": 7,
+      "name": "Khat-keshidam-doram",
+      "src": "/images/songs/Khat-keshidam-doram.mp3",
+      "artist": "Ho3ein",
+      "FT": "Canis"
+    },
+    {
+      "id": 8,
+      "name": "Por",
+      "src": "/images/songs/por.mp3",
+      "artist": "Ho3ein",
+      "FT": "BigRez"
+    },
+    {
+      "id": 9,
+      "name": "Hayahoo",
+      "src": "/images/songs/Hayahoo.mp3",
+      "artist": "Koorosh",
+      "FT": "Tamara"
+    },
+    {
+      "id": 10,
+      "name": "Male Man Bash",
+      "src": "/images/songs/malemanbash.mp3",
+      "artist": "Tatalo",
+      "FT": "MJ"
+    }
+  ]
+}
